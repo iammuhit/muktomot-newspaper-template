@@ -1,0 +1,170 @@
+/**
+ * Theme Name: Muktomot Blog
+ * Theme URI: http://www.psoource.com/themes/muktomot
+ * Version: 2.0.0
+ * Description: Template for Muktomot Blog.
+ * Author: The Primitive Solution
+ * Author URI: http://www.primitivesolution.com
+ * Text Domain: muktomot
+ */
+
+/* Structure */
+
+body {
+    padding: 0px auto;
+}
+
+#page {
+    margin-top: 50px;
+}
+
+/* Content */
+
+.entry-header {
+    margin-bottom: 5px;
+}
+
+.entry-title {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.entry-title a {
+    color: #26331a;
+}
+
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+    color: rgb(102, 102, 102);
+}
+
+.entry-meta {
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.entry-meta a {
+    font-weight: bold;
+}
+
+.entry-content,
+.entry-summary {
+    text-align: justify;
+}
+
+.entry-content .post-thumbnail-left {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.entry-content .post-thumbnail-right {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.entry-content .more-link {
+    font-weight: normal;
+}
+
+.entry-meta .edit-link a {
+
+}
+
+.entry-meta .edit-link a:hover {
+
+}
+
+.entry-devider {
+    margin: 10px 0px;
+}
+
+/* Comments link */
+.entry-header .comments-link a {
+    background: #eee url(images/comment-bubble.png) no-repeat;
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 35px;
+    overflow: hidden;
+    padding: 0 0 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 43px;
+    height: 36px;
+    margin-top: -12px;
+}
+
+.entry-header .comments-link a:hover,
+.entry-header .comments-link a:focus,
+.entry-header .comments-link a:active {
+    background-color: #1982d1;
+    color: #fff;
+    color: rgba(255,255,255,0.8);
+}
+
+.entry-header .comments-link .leave-reply {
+    visibility: hidden;
+}
+
+/* Widgets */
+
+.widget-area {
+    font-size: 14px;
+}
+
+.widget-area .well {
+    padding: 0px;
+
+    -moz-border-radius: 10px 0px 10px 0px;
+    -o-border-radius: 10px 0px 10px 0px;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -ms-border-radius: 10px 0px 10px 0px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.widget-area .nav-header {
+    line-height: 28px
+}
+
+.widget-title {
+    margin: 0px 0px;
+    padding: 4px 4px 4px 10px; 
+    -moz-border-radius: 10px 0px 0px 0px; 
+    -o-border-radius: 10px 0px 0px 0px; 
+    -webkit-border-radius: 10px 0px 0px 0px; 
+    -ms-border-radius: 10px 0px 0px 0px;
+    border-radius: 10px 0px 0px 0px; 
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(250, 250, 250);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(242, 242, 242));
+    background-repeat: repeat-x;
+
+
+    font-size: 16px;
+}
+
+.widget .nav > li {
+    border-bottom: 1px #ededed dotted;
+}
+
+.widget-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Footer */
+
+#colophon {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px 0px;
+    background: #c4c8c0;
+    text-align: center;
+}

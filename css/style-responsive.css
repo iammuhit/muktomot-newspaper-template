@@ -1,0 +1,15 @@
+/**
+ * Theme Name: Muktomot Blog
+ * Theme URI: http://www.psoource.com/themes/muktomot
+ * Version: 2.0.0
+ * Description: Template for Muktomot Blog.
+ * Author: The Primitive Solution
+ * Author URI: http://www.primitivesolution.com
+ * Text Domain: muktomot
+ */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    #page {
+        margin-top: 15px;
+    }
+}
